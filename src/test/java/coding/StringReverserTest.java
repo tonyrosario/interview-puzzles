@@ -11,6 +11,6 @@ public class StringReverserTest {
 		String expected = "madA m'I ,madaM";
 		
 		StringReverser reverser = new StringReverser();
-		assertEquals(target, expected);
+		assertEquals(expected, reverser.reverse(target));
 	}
 }
