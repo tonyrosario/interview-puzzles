@@ -28,5 +28,14 @@ public class FibonnaciCalculatorTest {
 		FibonnaciCalculator calc = new FibonnaciCalculator();
 		assertEquals(expected, calc.calculate(3));
 	}
+	
+	@Test
+	public void calculate12ReturnsOneFortyFour() {
+		int expected = 144;
+
+		FibonnaciCalculator calc = new FibonnaciCalculator();
+		assertEquals(expected, calc.calculate(12));
+	}
+
 
 }
