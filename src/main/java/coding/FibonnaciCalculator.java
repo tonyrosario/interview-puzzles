@@ -3,11 +3,7 @@ package coding;
 public class FibonnaciCalculator {
 
 	public int calculate(int nthFibNumber) {
-		if (nthFibNumber == 0) {
-			return 0;
-		} else {
-			return 1;
-		}
+		return nthFibNumber <= 1 ? nthFibNumber : calculate(nthFibNumber-1) + calculate(nthFibNumber - 2);
 	}
 
 }

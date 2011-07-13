@@ -20,5 +20,13 @@ public class FibonnaciCalculatorTest {
 		FibonnaciCalculator calc = new FibonnaciCalculator();
 		assertEquals(expected, calc.calculate(1));
 	}
+	
+	@Test
+	public void calculateThreeReturnsTwo() {
+		int expected = 2;
+
+		FibonnaciCalculator calc = new FibonnaciCalculator();
+		assertEquals(expected, calc.calculate(3));
+	}
 
 }
