@@ -7,7 +7,10 @@ public class StringReverserTest {
 	
 	@Test
 	public void reverseReturnsAReversedString() {
+		String target = "Madam, I'm Adam";
+		String expected = "madA m'I ,madaM";
+		
 		StringReverser reverser = new StringReverser();
-		assertTrue("".equals(reverser.reverse("")));
+		assertTrue(target.equals(reverser.reverse(expected)));
 	}
 }
