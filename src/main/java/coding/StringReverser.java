@@ -14,6 +14,6 @@ public class StringReverser {
 	}
 
 	public String recursiveReverse(String string) {
-		return "";
+		return string.length() <=1 ? string : recursiveReverse(string.substring(1))  + string.charAt(0);
 	}
 }
