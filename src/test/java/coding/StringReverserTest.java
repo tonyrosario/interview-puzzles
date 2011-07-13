@@ -1,6 +1,6 @@
 package coding;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class StringReverserTest {
@@ -11,6 +11,6 @@ public class StringReverserTest {
 		String expected = "madA m'I ,madaM";
 		
 		StringReverser reverser = new StringReverser();
-		assertTrue(target.equals(reverser.reverse(expected)));
+		assertEquals(target, expected);
 	}
 }
