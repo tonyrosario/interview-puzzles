@@ -13,4 +13,7 @@ public class StringReverser {
 		return new String(charArray);
 	}
 
+	public String recursiveReverse(String string) {
+		return "";
+	}
 }

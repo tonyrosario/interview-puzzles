@@ -13,4 +13,13 @@ public class StringReverserTest {
 		StringReverser reverser = new StringReverser();
 		assertEquals(expected, reverser.reverse(target));
 	}
+	
+	@Test
+	public void recursiveReverseReturnsAReversedString() {
+		String target = "Madam, I'm Adam";
+		String expected = "";
+
+		StringReverser reverser = new StringReverser();
+		assertEquals(expected, reverser.recursiveReverse(target));
+	}
 }
