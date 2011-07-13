@@ -7,6 +7,7 @@ public class StringReverserTest {
 	
 	@Test
 	public void reverseReturnsAReversedString() {
-		assertTrue(true);
+		StringReverser reverser = new StringReverser();
+		assertTrue("".equals(reverser.reverse("")));
 	}
 }
