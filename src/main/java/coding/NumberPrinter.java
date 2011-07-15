@@ -3,8 +3,10 @@ package coding;
 public class NumberPrinter {
 
 	public void printOddNumbers(int minNumber, int maxNumber) {
-		for (int i = minNumber; i <= maxNumber; i += 2) {
-			System.out.println(String.format("%2d", i));
+		for (int i = minNumber; i <= maxNumber; i++) {
+			if (i % 2 != 0) {
+				System.out.println(String.format("%2d", i));
+			}
 		}
 	}
 
