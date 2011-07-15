@@ -13,7 +13,7 @@ public class IntegerFinderTest {
 
 		IntegerFinder integerFinder = new IntegerFinder();
 
-		assertEquals(0, integerFinder.findLargest(intArray));
+		assertEquals(expected, integerFinder.findLargest(intArray));
 
 	}
 }
