@@ -7,7 +7,7 @@ import org.junit.Test;
 public class IntegerFinderTest {
 
 	@Test
-	public void findLargestReturnsLargest() {
+	public void returnLargestWhenMaxIntIsInMiddleOfArray() {
 		int[] intArray = { 0, 151, 6, 85, 43, 781, 13, 1, 85 };
 		int expected = 781;
 
