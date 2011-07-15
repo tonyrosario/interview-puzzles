@@ -11,6 +11,6 @@ public class FileAdderTest {
 		int expected = 33;
 
 		FileAdder adder = new FileAdder();
-		assertEquals(expected, adder.calculateSum("integers.txt"));
+		assertEquals(expected, adder.calculateSum("src/main/resources/integers.txt"));
 	}
 }
