@@ -9,6 +9,10 @@ public class FileAdder {
 		int total = 0;
 		try {
 			BufferedReader inFile = new BufferedReader(new FileReader(file));
+			
+			for(String line = inFile.readLine(); line != null; line = inFile.readLine()) {
+				total += Integer.valueOf(line);
+			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
