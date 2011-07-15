@@ -37,4 +37,15 @@ public class IntegerFinderTest {
 		assertEquals(expected, integerFinder.findLargest(intArray));
 	}
 	
+	@Test
+	public void returnLargestOnOneElementArray() {
+		int[] intArray = {1};
+		int expected = 1;
+
+		IntegerFinder integerFinder = new IntegerFinder();
+
+		assertEquals(expected, integerFinder.findLargest(intArray));
+		
+	}
+	
 }
