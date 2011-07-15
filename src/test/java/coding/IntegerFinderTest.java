@@ -27,4 +27,14 @@ public class IntegerFinderTest {
 		assertEquals(expected, integerFinder.findLargest(intArray));
 	}
 	
+	@Test
+	public void returnLargestWhenMaxIntIsAtEndOfArray() {
+		int[] intArray = { 1024, 151, 6, 85, 43, 781, 13, 1, 8500 };
+		int expected = 8500;
+
+		IntegerFinder integerFinder = new IntegerFinder();
+
+		assertEquals(expected, integerFinder.findLargest(intArray));
+	}
+	
 }
