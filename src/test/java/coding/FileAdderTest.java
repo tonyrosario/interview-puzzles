@@ -8,7 +8,6 @@ public class FileAdderTest {
 	
 	@Test
 	public void sumIsCorrectTest() {
-		int[] intArray = {1,1,2,3,5,8,13};
 		int expected = 33;
 
 		FileAdder adder = new FileAdder();
