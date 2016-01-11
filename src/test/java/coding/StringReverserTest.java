@@ -1,25 +1,26 @@
 package coding;
 
 import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 public class StringReverserTest {
 
-	@Test
-	public void reverseReturnsAReversedString() {
-		String target = "Madam, I'm Adam";
-		String expected = "madA m'I ,madaM";
+    @Test
+    public void reverseReturnsAReversedString() {
+        String target = "Madam, I'm Adam";
+        String expected = "madA m'I ,madaM";
 
-		StringReverser reverser = new StringReverser();
-		assertEquals(expected, reverser.reverse(target));
-	}
-	
-	@Test
-	public void recursiveReverseReturnsAReversedString() {
-		String target = "Madam, I'm Adam";
-		String expected = "madA m'I ,madaM";
+        StringReverser reverser = new StringReverser();
+        assertEquals(expected, reverser.reverse(target));
+    }
 
-		StringReverser reverser = new StringReverser();
-		assertEquals(expected, reverser.recursiveReverse(target));
-	}
+    @Test
+    public void recursiveReverseReturnsAReversedString() {
+        String target = "Madam, I'm Adam";
+        String expected = "madA m'I ,madaM";
+
+        StringReverser reverser = new StringReverser();
+        assertEquals(expected, reverser.recursiveReverse(target));
+    }
 }
