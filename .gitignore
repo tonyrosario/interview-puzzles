@@ -58,3 +58,7 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+# Intellij
+.idea/
+*.iml
