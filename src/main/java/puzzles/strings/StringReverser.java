@@ -1,4 +1,4 @@
-package coding;
+package puzzles.strings;
 
 public class StringReverser {
 

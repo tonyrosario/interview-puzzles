@@ -1,8 +1,10 @@
-package coding;
+package puzzles.strings;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import puzzles.strings.StringReverser;
 
 public class StringReverserTest {
 
