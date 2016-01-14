@@ -33,12 +33,14 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void zeroReturnsFizzBuzz() {
-        Assert.assertNull(fizzBuzz.solve(0));
-    }
-
-    @Test
     public void twoReturnsNull() {
         Assert.assertNull(fizzBuzz.solve(2));
     }
+
+    @Test
+    public void zeroReturnsFizzBuzz() {
+        Assert.assertEquals(fizzBuzz.solve(0), "FizzBuzz");
+    }
+
+
 }
